@@ -1,1 +1,1 @@
-Sitemap: https://tulasiram58827.github.io/portfolio/sitemap.xml
+Sitemap: https://tulasi.dev/sitemap.xml
