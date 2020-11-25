@@ -81,7 +81,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      7 min read
+      8 min read
     
 </span></p>
 
@@ -210,7 +210,28 @@ The main principle of <strong>CRAFT</strong> is to localize the individual chara
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://github.com/clovaai/CRAFT-pytorch">Clove AI</a> team already provided pre-trained weights we can use for making inference on images. But these weights are not ideal for mobile applications and also for low latency devices like Raspberry Pi and Fully Integer Devices like Google Coral and MicroControllers. This is why we first convert these pre-trained weights to TFLite which would be more suitable for low latency devices and mobile applications.</p>
+<p><a href="https://github.com/clovaai/CRAFT-pytorch">Clove AI</a> team already provided pre-trained weights we can use for making inference on images. But the framework(PyTorch) is not ideal for mobile applications and also for low latency devices like Raspberry Pi and Fully Integer Devices like Google Coral and MicroControllers.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>TensorFlow Lite is a framework that is well suited for running Deep Learning Models on edge devices and mobile devices. Now a days usage of edge devices become popular mainly due to 3 reasons</p>
+<ul>
+<li>Lower Latency</li>
+<li>No requirement of Internet</li>
+<li>Privacy Protection</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is why we first convert these pre-trained weights to TFLite which would be more suitable for low latency devices and mobile applications.</p>
 
 </div>
 </div>
@@ -750,7 +771,7 @@ snippet to load the saved model:</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>After the post-processing steps mentioned in the <a href="https://github.com/tulasiram58827/craft_tflite/blob/main/colabs/tflite_inference.ipynb">notebook</a> the output image (with dynamic range quantized model) would look like this alongside with the output of the original model output.</p>
+<p>After the post-processing steps mentioned in this <a href="https://github.com/tulasiram58827/craft_tflite/blob/main/colabs/tflite_inference.ipynb">notebook</a> the output image (with dynamic range quantized model) would look like this alongside with the output of the original model output.</p>
 
 </div>
 </div>
@@ -785,6 +806,14 @@ snippet to load the saved model:</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>It is clearly evident that the results of Float16 quantized model are better than results of Dynamic Range quantized model but at the cost of model size.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Conclusion">
 <a class="anchor" href="#Conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion<a class="anchor-link" href="#Conclusion"> </a>
 </h2>
@@ -798,7 +827,7 @@ snippet to load the saved model:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Acknowledgments:</strong></p>
-<p><em>Thanks to Sayak Paul , Le Viet Gia Khanh for their constant guidance.</em></p>
+<p><em>Thanks to <a href="https://twitter.com/RisingSayak">Sayak Paul</a> , <a href="https://twitter.com/khanhlvg">Le Viet Gia Khanh</a>(from TFLite team) for their constant guidance.</em></p>
 
 </div>
 </div>
