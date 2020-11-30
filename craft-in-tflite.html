@@ -148,7 +148,19 @@ window.onload = wrap_img;
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Please open the notebooks included in this <a href="https://github.com/tulasiram58827/craft_tflite">repository</a> and follow along with this blog post. You may also directly download already converted TFLite Models from this <a href="https://github.com/tulasiram58827/craft_tflite">repository</a>.</p>
+<p>Please open the notebooks included in this <a href="https://github.com/tulasiram58827/craft_tflite">repository</a> and follow along with this blog post.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p></p>
+<div class="flash flash-warn">
+    <svg class="octicon octicon-zap" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.561 1.5a.016.016 0 00-.01.004L3.286 8.571A.25.25 0 003.462 9H6.75a.75.75 0 01.694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0012.538 7H9.25a.75.75 0 01-.683-1.06l2.008-4.418.003-.006a.02.02 0 00-.004-.009.02.02 0 00-.006-.006L10.56 1.5zM9.504.43a1.516 1.516 0 012.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.25 1.25 0 01-.871.354h-.302a1.25 1.25 0 01-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429z"></path></svg>
+    <strong>Important: </strong>You may also directly download already converted TFLite Models from this <a href="https://github.com/tulasiram58827/craft_tflite">Repository</a>. Also pre-converted now available in <a href="https://tfhub.dev/tulasiram58827/lite-model/craft-text-detector/dr/1">Tensorflow Hub</a>.
+</div>
 
 </div>
 </div>
@@ -201,9 +213,13 @@ The main principle of <strong>CRAFT</strong> is to localize the individual chara
 <h2 id="TFLite-Conversion-Flow">
 <a class="anchor" href="#TFLite-Conversion-Flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>TFLite Conversion Flow<a class="anchor-link" href="#TFLite-Conversion-Flow"> </a>
 </h2>
-<p><img src="https://paper-attachments.dropbox.com/s_26EA9AD010A0BB211BCF8D0337C8A342D7ED67947FA9F0B435D128AAF3F2C824_1606055863622_flow.png" alt=""></p>
-<p><em>Currently, the integer quantization is erroring out and it has been reported to the TensorFlow Lite team.</em></p>
-<p><em>Update from TFLite team: Currently support for NCHW image format(like those converted from PyTorch) is quite limited at this moment, which caused this issue with full integer quantized model.</em></p>
+<p><img src="https://paper-attachments.dropbox.com/s_26EA9AD010A0BB211BCF8D0337C8A342D7ED67947FA9F0B435D128AAF3F2C824_1606055863622_flow.png" alt="">
+</p>
+<div class="flash">
+    <svg class="octicon octicon-info" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"></path></svg>
+    <strong>Note: </strong>Currently, the integer quantization is erroring out and it has been reported to the TensorFlow Lite team.
+</div>
+<em>Update from TFLite team: Currently support for NCHW image format(like those converted from PyTorch) is quite limited at this moment, which caused this issue with full integer quantized model.</em>
 <p>You can find the full reply from TensorFlow Lite team <a href="https://github.com/tulasiram58827/craft_tflite/issues/1#issuecomment-734015155">here</a></p>
 
 </div>
@@ -465,7 +481,11 @@ which we used to visualize the onnx model.</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Note:</strong> Please refer to the installation <a href="https://github.com/tulasiram58827/craft_tflite/blob/main/README.md#installation">instructions</a> for validity of onnx and  onnx_tf versions.</p>
+<p></p>
+<div class="flash flash-error">
+    <svg class="octicon octicon-alert" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <strong>Warning: </strong>Please refer to the installation <a href="https://github.com/tulasiram58827/craft_tflite/blob/main/README.md#installation">instructions</a> for validity of onnx and  onnx_tf versions.
+</div>
 
 </div>
 </div>
