@@ -27,6 +27,17 @@
   
 
   
+      ,"page2": {
+          "title": "All blogs",
+          "content": "Below are the blogs, articles I have written on various platforms. . Medium . Personalized Cancer Diagnosis Using Machine Learning | Interpretability of K-NN | Hypothesis Testing Explained | . Weights and Biases . Plotting Top Loss Images in Keras (joint work with Sayak) | . Other . A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST | .",
+          "url": "https://tulasi.dev/blogs/",
+          "relUrl": "/blogs/",
+          "date": ""
+      }
+      
+  
+
+  
 
   
   
@@ -48,7 +59,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://tulasi.dev/robots.txt",
