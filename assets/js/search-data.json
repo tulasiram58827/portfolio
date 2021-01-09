@@ -29,7 +29,7 @@
   
       ,"page2": {
           "title": "All blogs",
-          "content": "Below are the blogs, articles I have written on various platforms. . Medium . Personalized Cancer Diagnosis Using Machine Learning | Interpretability of K-NN | Hypothesis Testing Explained | . Weights and Biases . Plotting Top Loss Images in Keras (joint work with Sayak) | . Other . A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST (colloborated with Sayak) | .",
+          "content": "Below are the blogs, articles I have written on various platforms. . Medium . Personalized Cancer Diagnosis Using Machine Learning | Interpretability of K-NN | Hypothesis Testing Explained | . Weights and Biases . Plotting Top Loss Images in Keras (joint work with Sayak) | Self Supervised Learning in Audio and Speech | . Other Blogs . A Battle of Text Detectors for Mobile Deployments: CRAFT vs. EAST (colloborated with Sayak) | . Repositories . Text to Speech TFLite Models[Models Available - Tacotron2, FastSpeech2, MelGAN, MB-MelGAN, Parallel WaveGAN, HiFi-GAN] | OCR in TFLite[Models Available - CaptchaOCR, KerasOCR, EasyOCR(Coming Soon)] | Craft in TFLite | Plot Top Loss Images in Keras | Cancer Diagnosis | Amazon Food Reviews Sentiment Analysis | . TFHub Models Published . You can find all my models published on TFLite from here .",
           "url": "https://tulasi.dev/blogs/",
           "relUrl": "/blogs/",
           "date": ""
