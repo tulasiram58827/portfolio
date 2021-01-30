@@ -16,7 +16,7 @@ Below are the blogs, articles I have written on various platforms.
 
 - [Plotting Top Loss Images in Keras](https://wandb.ai/tulasi1729/plot-top-losses/reports/Debug-Models-By-Plotting-The-Top-Loss-Images--VmlldzoxMTI0NDk) (joint work with Sayak)
 - [Self Supervised Learning in Audio and Speech](https://wandb.ai/tulasi1729/self-supervised-learning-in-audio/reports/Self-Supervised-Learning-in-Audio-and-Speech--VmlldzozODA3OTU)
-
+- [Information Extraction From Documents](https://wandb.ai/tulasi1729/information_extraction/reports/Information-Extraction-From-Documents---Vmlldzo0MDc3MDQ)
 
 
 ## Other Blogs
